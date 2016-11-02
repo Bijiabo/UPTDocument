@@ -1,0 +1,20 @@
+# 解说控件配置
+
+单段文本：
+
+```javascript
+{
+    type: 'explainView',
+    title: '快速启动',
+    content: '此功能是以微波最高挡火力快速加热食物'
+}
+```
+多段落文本：
+
+```javascript
+{
+    type: 'explainView',
+    title: '快速启动',
+    content: ['此功能是以微波最高挡火力快速加热食物', '第二段文字', '第三段文字']
+}
+```
